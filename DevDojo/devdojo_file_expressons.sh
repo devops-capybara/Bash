@@ -18,3 +18,15 @@ if [[ -c ${plik} ]]; then
 else
 	echo "nie ma znaku"
 fi
+
+if [[ -a ${plik} ]]; then 
+	echo "istnieje"
+else
+	echo "nie istnieje"
+fi
+
+if [[ -n ${plik} ]]; then
+	echo "non-zero"
+else
+	echo "zero"
+fi
