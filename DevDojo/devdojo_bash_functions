@@ -1,0 +1,16 @@
+#!/bin/bash
+#Funksja Hello World
+function hello() {
+	echo "Hello World Function"
+}
+
+hello
+echo
+#Przekazywanie argumentu do funkcji
+
+function word() {
+	echo "Hello $1"
+}
+word DevDojo
+####
+#Funkcje zawsze powinnny byc opisane 
